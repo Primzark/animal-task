@@ -1,0 +1,32 @@
+ body {
+  
+  box-sizing: border-box;  
+
+ }
+ 
+ 
+ h2 {
+    font-family: "PT Sans Narrow", sans-serif; 
+    size: 1.4em;
+}
+p {
+
+font-family: Open sans-serif;
+
+}
+
+nav {
+
+ text-align: center;
+ text-size-adjust: 1.6em;
+ background-color: brown;
+}
+
+nav a {
+    margin-right: 40px;
+}
+
+img {
+ border: 10px;
+
+}
