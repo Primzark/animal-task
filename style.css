@@ -1,32 +1,110 @@
- body {
-  
-  box-sizing: border-box;  
+body {
+  background-color: rgb(13, 156, 178);
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
 
- }
- 
- 
- h2 {
-    font-family: "PT Sans Narrow", sans-serif; 
-    size: 1.4em;
+
+header,
+main {
+  width: 80%;
+  margin: auto;
+}
+header {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: flex-start;
+}
+
+header img {
+  margin-left: auto;
+}
+
+aside {
+  background-color: white;
+  width: 22rem;
+  padding: 0.5rem;
+  text-align: center;
+  white-space: pre-line;
+
+
+}
+
+aside h2{
+  
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 18rem;
+  
+}
+
+h2 {
+  background-color: rgb(83, 30, 30);
+  color: white;
+  font-family: "PT Sans Narrow", sans-serif;
+  size: 1.8em;
+  border-radius: 5px;
+  padding: 0.9rem;
+  margin-bottom: 2rem;
 }
 p {
-
-font-family: Open sans-serif;
-
+  font-family: Open sans-serif;
+  margin-bottom: 1rem;
 }
 
-nav {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
- text-align: center;
- text-size-adjust: 1.6em;
- background-color: brown;
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  height: 7em;
+  max-width: 72em;
+  font-family: Open ;
+  background-color: rgb(83, 30, 30);
+  padding: 40px;
+  transition: opacity 1s ease-in-out;
 }
 
 nav a {
-    margin-right: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7rem;
+  padding-right: 4rem;
+  padding-left: 4rem;
+  text-decoration: none;
+  color: white;
+  font-size: 1.7em;
+  font-family: "PT Sans Narrow";
+  transition: background-color 0.6s ease;
 }
 
-img {
- border: 10px;
-
+nav :hover {
+  background-color: silver;
+  opacity: 1;
+ }
+section {
+  text-align: center;
+  width: 70%;
+  padding: 1rem;
+}
+section img {
+  display: flex;
+  margin-bottom: 4rem;
+  ;
+}
+section p {
+  text-align: left
 }
